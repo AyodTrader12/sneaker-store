@@ -3,11 +3,13 @@ import pix1 from "../assets/sneaker4.png";
 import pix2 from "../assets/sneaker7.png";
 import pix3 from "../assets/sneakers1.jpg";
 import pix4 from "../assets/sneakers2.jpg";
-import pix5 from "../assets/nike-black-friday-%E2%80%93-spare-25-just-do-it (4).jpeg";
-import pix6 from "../assets/nike-black-friday-%E2%80%93-spare-25-just-do-it (3).jpeg";
-import pix7 from "../assets/nike-black-friday-%E2%80%93-spare-25-just-do-it (2).jpeg";
-import pix8 from "../assets/nike-black-friday-%E2%80%93-spare-25-just-do-it (1).jpeg";
-
+import pix5 from "../assets/sneaker14.png";
+import pix6 from "../assets/sneaker13.png";
+import pix7 from "../assets/sneaker17.png";
+import pix8 from "../assets/sneaker18.png";
+import pix9 from "../assets/sneaker13.jpg";
+import pix10 from "../assets/sneaker15.jpg";
+import pix11 from "../assets/sneaker9.png";
 import { IoFlashSharp } from "react-icons/io5";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { FaLongArrowAltLeft } from "react-icons/fa";
@@ -46,7 +48,7 @@ const Home = () => {
                 />
               </div>
               <div className="w-full h-[15%] ">
-                <p className="mt-1 font-semibold">Air force 1</p>
+                <p className="mt-1 font-semibold">Dunk</p>
                 <p className="font-semibold">$150</p>
               </div>
             </div>
@@ -64,8 +66,8 @@ const Home = () => {
                 <img src={pix5} alt="" className="w-full h-full object-cover" />
               </div>
               <div className="w-full h-[15%] ">
-                <p className="mt-1 font-light">i'm a product</p>
-                <p className="font-light">$15.00</p>
+                <p className="mt-1 font-semibold">Air force 1</p>
+                <p className="font-semibold">$300</p>
               </div>
             </div>
             <div className="w-[23%] h-full">
@@ -73,8 +75,8 @@ const Home = () => {
                 <img src={pix6} alt="" className="w-full h-full object-cover" />
               </div>
               <div className="w-full h-[15%] ">
-                <p className="mt-1 font-light">i'm a product</p>
-                <p className="font-light">$15.00</p>
+                <p className="mt-1 font-semibold">cortez</p>
+                <p className="font-semibold">$100</p>
               </div>
             </div>
           </div>
@@ -87,8 +89,8 @@ const Home = () => {
                 <div className="w-[10%] h-[10%] "></div>
               </div>
               <div className="w-full h-[15%] ">
-                <p className="mt-1 font-light">i'm a product</p>
-                <p className="font-light">$15.00</p>
+                <p className="mt-1 font-semibold">Blazer</p>
+                <p className="font-semibold">$175</p>
               </div>
             </div>
             <div className="w-[23%] h-full ">
@@ -96,26 +98,30 @@ const Home = () => {
                 <img src={pix8} alt="" className="w-full h-full object-cover" />
               </div>
               <div className="w-full h-[15%] ">
-                <p className="mt-1 font-light">i'm a product</p>
-                <p className="font-light">$15.00</p>
+                <p className="mt-1 font-semibold">Dunk</p>
+                <p className="font-semibold">$85</p>
               </div>
             </div>
             <div className="w-[23%] h-full ">
               <div className="w-full h-[85%]">
-                <img src={pix} alt="" className="w-full h-full object-cover" />
+                <img src={pix9} alt="" className="w-full h-full object-cover" />
               </div>
               <div className="w-full h-[15%] ">
-                <p className="mt-1 font-light">i'm a product</p>
-                <p className="font-light">$15.00</p>
+                <p className="mt-1 font-semibold">Air force 1</p>
+                <p className="font-semibold">$65</p>
               </div>
             </div>
             <div className="w-[23%] h-full">
               <div className="w-full h-[85%]">
-                <img src={pix} alt="" className="w-full h-full object-cover" />
+                <img
+                  src={pix10}
+                  alt=""
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="w-full h-[15%] ">
-                <p className="mt-1 font-light">i'm a product</p>
-                <p className="font-light">$15.00</p>
+                <p className="mt-1 font-semibold">Air max</p>
+                <p className="font-semibold">$115</p>
               </div>
             </div>
           </div>
@@ -139,7 +145,7 @@ const Home = () => {
             </div>
           </div>
           <div className="w-[40%] h-full">
-            <img src={pix1} alt="img" className="w-full h-full object-fill" />
+            <img src={pix11} alt="img" className="w-full h-full object-fill" />
           </div>
         </div>
         <div className="w-full h-[15vh]  flex items-center justify-center gap-7">
